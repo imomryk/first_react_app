@@ -2,9 +2,9 @@
   "name": "l1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
-    "dev":"parcel src/index.html",
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +15,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "parcel": "^1.12.3"
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "parcel": "1.12.3"
   }
 }
